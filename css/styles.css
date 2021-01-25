@@ -53,6 +53,10 @@ p {
   justify-content: space-around;
 }
 
+header .row {
+  margin-top: 70px;
+}
+
 .col-2 {
   flex-basis: 50%;
   min-width: 300px;
@@ -71,9 +75,14 @@ p {
 
 .btn {
   display: inline-block;
-  background-color: #ff523b;
+  background: #ff523b;
   color: #fff;
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #563434;
 }
